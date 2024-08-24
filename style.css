@@ -1,8 +1,60 @@
 #canvas {
 	position: absolute;
+	top: 10%;
+	left: 0;
 	width: 100%;
-	height: 100%;
+	height: 90%;
 	background-color: #f9f9f9;
+}
+
+.toolbar {
+	position: absolute;
 	top: 0;
 	left: 0;
+	width: 100%;
+	height: 10%;
+	background-color: #404040;
+	display: flex;
+	align-items: center;
+}
+
+.clear-button {
+	width: 100px;
+	height: 40px;
+	border: none;
+	border-radius: 10px;
+	background-color: red;
+	color: white;
+	margin: 0 20px;
+}
+
+
+.colors {
+	display: flex;
+	width: 265px;
+	height: 45px;
+	flex-wrap: wrap;
+	gap: 5px;
+	margin: 0 20px;
+}
+
+.selected-color {
+	margin-left: 20px;
+	height: 45px;
+	width: 45px;
+	border: 1px solid white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.color-option {
+	width: 20px;
+	height: 20px;
+	border: 1px solid black;
+}
+
+.slider {
+	width: 160px;
+	height: 25px;
 }

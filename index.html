@@ -7,7 +7,35 @@
 		<link rel="stylesheet" href="./style.css">
 	</head>
 	<body>
-		<div id="toolbar"></div>
+		<div class="toolbar">
+			<div class="selected-color">
+				<div id='selection' class="color-option"></div>
+			</div>
+			<div id="color-list" class="colors">
+				<div class="color-option" onClick="changeColor(0)"></div>
+				<div class="color-option" onClick="changeColor(1)"></div>
+				<div class="color-option" onClick="changeColor(2)"></div>
+				<div class="color-option" onClick="changeColor(3)"></div>
+				<div class="color-option" onClick="changeColor(4)"></div>
+				<div class="color-option" onClick="changeColor(5)"></div>
+				<div class="color-option" onClick="changeColor(6)"></div>
+				<div class="color-option" onClick="changeColor(7)"></div>
+				<div class="color-option" onClick="changeColor(8)"></div>
+				<div class="color-option" onClick="changeColor(9)"></div>
+				<div class="color-option" onClick="changeColor(10)"></div>
+				<div class="color-option" onClick="changeColor(11)"></div>
+				<div class="color-option" onClick="changeColor(12)"></div>
+				<div class="color-option" onClick="changeColor(13)"></div>
+				<div class="color-option" onClick="changeColor(14)"></div>
+				<div class="color-option" onClick="changeColor(15)"></div>
+				<div class="color-option" onClick="changeColor(16)"></div>
+				<div class="color-option" onClick="changeColor(17)"></div>
+				<div class="color-option" onClick="changeColor(18)"></div>
+				<div class="color-option" onClick="changeColor(19)"></div>
+			</div>
+			<input id="size-selector" type="range" min="1" max="5" value="1" class="slider"/>
+			<button class="clear-button" onClick="clearCanvas()">Clear</button>
+		</div>
 		<canvas id="canvas"></canvas>
 		<script src="./index.js"></script>
 	</body>
